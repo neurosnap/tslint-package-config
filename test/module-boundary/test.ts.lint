@@ -1,0 +1,12 @@
+import something from '@battlestar/something';
+import another from '@battlestar/another/cool';
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ [module-boundary % ('another')]
+const duh = require('@battlestar/wow/sup');
+      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  [module-boundary % ('wow')]
+const wow = duh.bro;
+const imp = require('@battlestar/yes');
+const req = require('something');
+const types2 = require('@battlestar/something/types');
+import types from '@battlestar/something/types';
+
+[module-boundary]: cannot reach into package, must import package like: @battlestar/%s

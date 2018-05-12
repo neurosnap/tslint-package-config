@@ -1,0 +1,5 @@
+{
+  "rules": {
+    "module-boundary": [true, "@battlestar"]
+  }
+}
