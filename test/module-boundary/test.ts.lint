@@ -1,8 +1,8 @@
 import something from '@battlestar/something';
 import another from '@battlestar/another/cool';
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ [module-boundary % ('another')]
+                     ~~~~~~~~~~~~~~~~~~~~~~~~ [module-boundary % ('another')]
 const duh = require('@battlestar/wow/sup');
-      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  [module-boundary % ('wow')]
+                     ~~~~~~~~~~~~~~~~~~~  [module-boundary % ('wow')]
 const wow = duh.bro;
 const imp = require('@battlestar/yes');
 const req = require('something');

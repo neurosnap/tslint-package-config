@@ -1,12 +1,15 @@
 {
-  "name": "tslint-rules",
+  "name": "tslint-package-config",
   "version": "1.0.0",
+  "main": "tslint-config.json",
+  "license": "MIT",
   "scripts": {
     "test": "ts-node node_modules/.bin/tslint -c tslint.json -r ./rules --test test/**/tslint.json"
   },
-  "dependencies": {
+  "devDependencies": {
     "ts-node": "^6.0.3",
     "tslint": "^5.10.0",
+    "tsutils": "^2.27.0",
     "typescript": "^2.8.3"
   }
 }
